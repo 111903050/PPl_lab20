@@ -1,0 +1,9 @@
+Q.1	Multiple variables on single line get splitted and there is only one variable on one line.
+	Also Global declaration [int Z] is calculated like z=_4 where _4=z.0_3+ 1 where z.0_3= z where z=_2  where _2=(int)r .In this way
+	z is expressed.
+Q.2	Complex expressions such as c=a*b +25 are shown like c=_1 + 25 where _1=a*b like this it is broke down
+Q.3	floats or doubles are represented like float / double
+	Initially the equation was z=r where r=34.5 but in gimple it loks like z=3.45e+ 1
+Q.4	[int Z] is calculated like z=_4 where _4=z.0_3+ 1 where z.0_3= z where z=_2  where _2=(int)r .In this way z is expressed.
+	
+
